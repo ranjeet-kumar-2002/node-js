@@ -80,3 +80,12 @@ add(2,3,function(){
 
 add(2,3,()=>console.log("add completed"));
 
+***********************************Modules**********************************************
+var fs = require('fs');
+var os = require('os');
+
+var user = os.userInfo();
+console.log(user);
+console.log(user.username);
+console.log(os);
+console.log(fs);
